@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #60686c;
+}
+
+h1 {
+    background-color: #494f52;
+    padding: 10px 50px 10px 50px;
+}
+
+#repository {
+    font-size: 30px;
+    margin-right: 100px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#black-circle {
+    position: relative;
+    text-align: center;
+}
+
+.fortune,
+#white-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 200px;
+}
+
+#circle-image {
+    width: 300px;
+}
+
+.fix-font {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+footer {
+    background-color: #60686c;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#input-box {
+    padding: 10px 50px 10px 10px
+}
+
+#input-flex {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}

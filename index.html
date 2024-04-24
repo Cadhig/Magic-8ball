@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Magic 8 Ball</h1>
+        <a href="https://github.com/Cadhig/Magic-8ball" id="repository">Repository</a>
+    </header>
+    <main>
+        <div id="magic-ball">
+            <div id="black-circle">
+                <img src="assets/magic-8-ball-8-ball-pool-eight-ball-crystal-ball-8-removebg-preview.png" alt="">
+                <div id="white-circle">
+                    <div class="fortune">8</div>
+                    <img src="assets/white-circle-free-png.webp" alt="" id="circle-image">
+                </div>
+            </div>
+        </div>
+        <div id="input-flex">
+            <input type="text" placeholder="Ask a question...." id="input-box" onfocus="this.value=''">
+            <button onclick="callFunctions()">Ask</button>
+        </div>
+    </main>
+    <footer>
+        <p>Made by Cadence Higgins</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
